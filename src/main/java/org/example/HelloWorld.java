@@ -26,7 +26,7 @@ public class HelloWorld {
         System.out.println(c == d);
 
         float e = 5.68455F;
-        float f = 989.5646F;
+        float f = 9.5646F;
         System.out.println(e + f);
         System.out.println(e - f);
         System.out.println(e * f);
