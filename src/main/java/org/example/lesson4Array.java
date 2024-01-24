@@ -73,7 +73,6 @@ public class lesson4Array {
             printArray(numbers3);
         }
 
-
     }
 }
 
