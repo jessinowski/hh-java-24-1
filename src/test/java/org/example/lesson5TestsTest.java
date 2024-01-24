@@ -8,7 +8,7 @@ class lesson5TestsTest {
 
     // Write a test for a method that calculates the sum of two integers.
     @Test
-    void add_when1Plus2_thenReturn3() {
+    void add_when1Plus2_return3() {
         //GIVEN
         int a = 1;
         int b = 2;
@@ -19,7 +19,7 @@ class lesson5TestsTest {
         assertEquals(expected, actual);
     }
     @Test
-    void add_when2Plus2_thenReturn4() {
+    void add_when2Plus2_return4() {
         //GIVEN
         int a = 2;
         int b = 2;
@@ -32,7 +32,7 @@ class lesson5TestsTest {
 
     // Write a test for a method that checks if a given number is even.
     @Test
-    void isEven_when_a_IsOdd_ThenReturnFalse() {
+    void isEven_when5_returnFalse() {
         //GIVEN
         int a = 5;
         //THEN
@@ -40,7 +40,7 @@ class lesson5TestsTest {
     }
 
     @Test
-    void isEven_when_a_IsEven_ThenReturnTrue(){
+    void isEven_when8_returnTrue(){
         //GIVEN
         int a = 8;
         //THEN
@@ -49,7 +49,7 @@ class lesson5TestsTest {
 
     // Write a test for a method that calculates the product of two integers.
     @Test
-    void multiply_when2Times3_thenReturn6() {
+    void multiply_when2Times3_return6() {
         //GIVEN
         int a = 2;
         int b = 3;
@@ -60,7 +60,7 @@ class lesson5TestsTest {
 
     // Write a test for a method that converts a given string to uppercase.
     @Test
-    void uppercaseString_when_hallo_thenReturn_HALLO() {
+    void uppercaseString_when_hallo_return_HALLO() {
         //GIVEN
         String name = "hallo";
         String expected = "HALLO";
@@ -70,7 +70,7 @@ class lesson5TestsTest {
     }
 
     @Test
-    void uppercaseString_when_JEsSicA_thenReturn_JESSICA() {
+    void uppercaseString_when_JEsSicA_return_JESSICA() {
         //GIVEN
         String name = "JEsSicA";
         String expected = "JESSICA";
@@ -81,7 +81,7 @@ class lesson5TestsTest {
 
     // Write a test for a method that checks if a given number is positive.
     @Test
-    void isPositive_when_a_isPositive_thenReturnTrue() {
+    void isPositive_when4_returnTrue() {
         //GIVEN
         int a = 4;
         //THEN
