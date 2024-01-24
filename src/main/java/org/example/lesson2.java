@@ -51,7 +51,7 @@ public class lesson2 {
     }
     // oder
 
-    public static int makePositive(int a){
+    public static int makePositive(int a) {
         return a >= 0 ? a : a * -1;
     }
 
