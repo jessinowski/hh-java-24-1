@@ -39,6 +39,6 @@ public class HelloWorld {
 
     @Override
     public String toString() {
-        return "Hugo";
+        return "Ich war schneller";
     }
 }
