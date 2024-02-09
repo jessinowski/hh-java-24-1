@@ -37,4 +37,8 @@ public class HelloWorld {
 
     }
 
+    @Override
+    public String toString() {
+        return "Ich war schneller";
+    }
 }
